@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+
+}
+@keyframes trans{
+	from{
+		opacity: 0;
+	
+
+	}
+	to{
+		opacity: 1;
+		
+	}
+}
+.container{
+  width: 98vw;
+  height: 175vh;
+  padding: 2% 5%;
+  animation: trans 3s ;
+}
+.heading h2{
+  font-family:'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 26px;
+  font-weight: normal;
+  color: #333333;
+  padding: 1% 0%;
+  
+}
+.heading h3{
+  font-family:'Montserrat', sans-serif;
+  text-align: center;
+  font-weight:normal;
+  color: #333333;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 1.5% 1%;
+}
+.cards{
+	width: 80vw;
+	height:130vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin:3% 4%
+
+}
+
+.card{
+	position: relative;
+    width: 320px;
+    height: 460px;
+	  background:#fff;
+    border-radius: 5px;
+ 	  overflow:hidden;
+	  margin:2% 2%;  
+	  box-shadow: 0 10px 20px rgba(0,0,0,0.2);   
+
+}
+.card .card-info{
+  margin: 8% 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card-info img{
+  height: 150px;
+  width: 150px;
+  border: 1px solid#dee2e6;
+  padding: 3%;
+  border-radius: 50%;
+}
+.card-info h4{
+  margin: 2% 0% 0%;
+ font-weight: normal;
+font-size:16px;
+ }
+ .card-info p{
+   font-size: 12px;
+   color: #666666;
+ }
+ .card-info p span{
+   color: coral;
+ }
+ .info{
+   padding: 0% 21%;
+ }
+ .imgs{
+   margin: 2% 0%;
+ }
+ .imgs img{
+  height: 20px;
+  width: 20px;
+  margin: 2% 4%;
+  padding: 1% 2%;
+  border: none;
+  border-radius: 0px;
+}
+.xp{
+  margin: 0% 0%;
+}
+.xp p span{
+  font-size: 13px;
+ 
+}
+.xp p{
+  color: #666666;
+}
+.spec{
+  padding: 2% 0%;
+}
+.spec p span{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+
+}
+.skills{
+  padding: 2% 0%;
+}
+.skills p span{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+
+}
+@media all and (max-width:1130px){
+  .container{
+    height: 240vh;
+  }
+}
+@media all and (max-width:842px){
+  .container{
+    height: 485vh;
+  }
+}
+  @media all and (max-width:500px){
+    .container{
+      height: 472vh;
+    }
+}
